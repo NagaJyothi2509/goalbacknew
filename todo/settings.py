@@ -30,6 +30,8 @@ CORS_ALLOW_ALL_ORIGINS = False # Set to True to allow all origins
 CORS_ALLOWED_ORIGINS = [
     "https://jyothi-nagajyothi2509.vercel.app", 
     "https://localhost:3000",
+    "https://localhost:8000",
+    "https://web-production-1c669.up.railway.app",
     
       # Replace with your Vercel frontend URL
     # Add any other allowed origins here if needed
