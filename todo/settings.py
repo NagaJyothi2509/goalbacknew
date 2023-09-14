@@ -26,9 +26,11 @@ SECRET_KEY = 'django-insecure-!46+ur3=jc&&q++&yb=-npif9=-!-yc^lb)uhi7b1+efof*ei2
 DEBUG = True
 
 ALLOWED_HOSTS = ["*"]
-CORS_ALLOW_ALL_ORIGINS = True # Set to True to allow all origins
+CORS_ALLOW_ALL_ORIGINS = False # Set to True to allow all origins
 CORS_ALLOWED_ORIGINS = [
-    "https://jyothi-nagajyothi2509.vercel.app",  # Replace with your Vercel frontend URL
+    "https://jyothi-nagajyothi2509.vercel.app", 
+    
+      # Replace with your Vercel frontend URL
     # Add any other allowed origins here if needed
 ]
 
